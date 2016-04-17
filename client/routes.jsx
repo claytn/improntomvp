@@ -1,13 +1,17 @@
 import React from 'react';
 import {mount} from 'react-mounter';
+
 import {MainLayout} from './layouts/MainLayout.jsx';
 import HomePageWrapper from './HomePage/HomePageWrapper.jsx';
 import EventsPageWrapper from './EventsPage/EventsPageWrapper';
+import EventDetail from './EventsPage/EventDetail.jsx';
+import SupportPageWrapper from './SupportPage/SupportPageWrapper.jsx';
+
 
 FlowRouter.route('/', {
   action() {
     mount(MainLayout, {
-      content: (<HomePageWrapper/>)
+      content: (<HomePageWrapper />)
     })
   }
 });
@@ -16,7 +20,23 @@ FlowRouter.route('/', {
 FlowRouter.route('/events', {
   action() {
     mount(MainLayout, {
-      content: (<EventsPageWrapper/>)
+      content: (<EventsPageWrapper />)
+    })
+  }
+});
+
+FlowRouter.route('/events/:id', {
+  action(params) {
+    mount(MainLayout, {
+      content: (<EventDetail id={params.id} />)
+    })
+  }
+});
+
+FlowRouter.route('/support', {
+  action() {
+    mount(MainLayout, {
+      content: (<SupportPageWrapper />)
     })
   }
 });
