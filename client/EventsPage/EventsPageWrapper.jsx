@@ -1,9 +1,8 @@
 import React from 'react';
 import TrackerReact from 'meteor/ultimatejs:tracker-react';
-
+import SideNavBar from '../layouts/SideNavBar';
 import EventsForm from './EventsForm.jsx';
 import EventSingle from './EventSingle.jsx';
-
 Events = new Mongo.Collection("events");
 
 export default class EventsPageWrapper extends TrackerReact(React.Component) {
@@ -26,13 +25,20 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
 
   render() {
     return(
-      <div>
-        <EventsForm />
-        <ul className="events">
-          {this.events().map( (event)=> {
-            return <EventSingle key={event._id} event={event} />
-          })}
-        </ul>
+      <div className="events-container">
+        <div className="row">
+          <div id="side-nav">
+            <SideNavBar />
+          </div>
+          <div className="col-md-10">
+            <EventsForm />
+            <ul className="events">
+              {this.events().map( (event)=> {
+                return <EventSingle key={event._id} event={event} />
+              })}
+            </ul>
+          </div>
+        </div>
       </div>
     );
   }
