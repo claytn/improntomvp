@@ -1,0 +1,24 @@
+#accounts-ui {
+  padding-top: 15px;
+}
+
+#side-nav {
+  background-color:#FFCF09 !important;
+}
+
+.side-nav-list {
+  list-style-type: none;
+}
+
+.side-nav-item {
+  font-family: 'Ubuntu', sans-serif;
+  list-style-type: none;
+}
+
+.event-item {
+  list-style-type: none;
+}
+
+#event-container {
+  background-color: blue;
+}

@@ -3,11 +3,6 @@ import AccountsUI from '../AccountsUI.jsx';
 
 export default class NavBar extends React.Component {
   render() {
-
-    var accountsStyle = {
-      paddingTop: 15
-    }
-
     return(
       <div>
         <nav className="navbar navbar-default">
@@ -27,7 +22,7 @@ export default class NavBar extends React.Component {
                 <li><a href="/events">Events</a></li>
                 <li><a href="/">How It Works</a></li>
                 <li><a href="/support">Support</a></li>
-                <li style={accountsStyle}><AccountsUI /></li>
+                <li id="accounts-ui"><AccountsUI /></li>
               </ul>
             </div>
           </div>
