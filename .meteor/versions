@@ -100,6 +100,7 @@ templating@1.1.8
 templating-tools@1.0.3
 themeteorchef:bert@2.1.0
 tracker@1.0.12
+twbs:bootstrap@3.3.6
 ui@1.0.10
 ultimatejs:tracker-react@1.0.4
 underscore@1.0.7

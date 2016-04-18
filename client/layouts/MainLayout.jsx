@@ -1,17 +1,11 @@
 import React from 'react';
 import AccountsUI from '../AccountsUI.jsx';
+import NavBar from './NavBar.jsx';
 
 export const MainLayout = ({content}) => (
-  <div className="main-layout">
+  <div>
     <header>
-      <h2>impronto</h2>
-      <nav>
-        <a href="/">Home</a>
-        <a href="/events">Events</a>
-        <a href="/">How It Works</a>
-        <a href="/support">Support</a>
-        <AccountsUI />
-      </nav>
+      <NavBar />
     </header>
     <main>
       {content}
