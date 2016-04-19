@@ -22,9 +22,11 @@ export default class NavBar extends React.Component {
                 <li><a href="/events">Events</a></li>
                 <li><a href="/howitworks">How It Works</a></li>
                 <li><a href="/support">Support</a></li>
-                <li id="accounts-ui"><AccountsUI /></li>
                 <li><a href="/addevent">Add Event</a></li>
                 <li><a href="/testevents">Test Events Page</a></li>
+              </ul>
+              <ul className="nav navbar-nav navbar-right">
+                <li id="accounts-ui"><AccountsUI /></li>
               </ul>
             </div>
           </div>

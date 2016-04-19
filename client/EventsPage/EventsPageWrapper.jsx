@@ -24,10 +24,10 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
   render() {
     return(
       <div className="events-container">
-        <div className="test-side-nav-container">
+        <div className="side-nav-container">
           <SideNavBarTest />
         </div>
-        <div className="test-events-container">
+        <div className="events-container">
           <ul className="events">
             {this.events().map( (event)=> {
               return <EventSingle key={event._id} event={event} />
