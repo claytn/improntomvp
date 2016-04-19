@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default class SideNavBar extends React.Component {
+export default class SideNavBarTest extends React.Component {
   render() {
     return(
       <div>
-        <h5 className="side-nav-item-text">activity filter</h5>
+        <h5 className="side-nav-item">activity filter</h5>
         <br />
         <h5 className="side-nav-item-text">day</h5>
         <ul className="side-nav-list">
