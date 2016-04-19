@@ -5,6 +5,7 @@
 
 #accounts-ui {
   padding-top: 15px;
+  padding-right: 100px;
 }
 
 .side-nav-list {
@@ -34,14 +35,28 @@
   margin: 0;
   display: flex;
   flex-wrap: nowrap;
+  justify-content: center;
+  width: 80%;
 }
 
-.test-side-nav-container {
+.side-nav-container {
   width: 20%;
   background-color: #FFCF09;
   position: static;
 }
 
-.test-events-container {
-  width: 79%;
+.event-single-container {
+  display: flex;
+  background-color: grey;
+}
+.event-picture {
+  width: 20%;
+}
+
+.event-information {
+  width: 60%;
+}
+
+.event-reserve-button {
+  width: 20%;
 }
