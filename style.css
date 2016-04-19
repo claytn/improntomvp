@@ -1,26 +1,47 @@
-#accounts-ui {
-  padding-top: 15px;
+.navbar.navbar-default {
+  margin: 0;
+  padding: 0;
 }
 
-#side-nav {
-  
+#accounts-ui {
+  padding-top: 15px;
 }
 
 .side-nav-list {
   list-style-type: none;
 }
 
-.side-nav-item {
+.side-nav-item-text {
   font-family: 'Ubuntu', sans-serif;
   list-style-type: none;
+  text-align: center;
+}
+
+.side-nav-item {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .event-item {
   list-style-type: none;
-  padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 #event-container {
   background-color: #EBEBEB;
-  border-radius: 10px;
+}
+
+.events-container {
+  margin: 0;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.test-side-nav-container {
+  width: 20%;
+  background-color: #FFCF09;
+  position: static;
+}
+
+.test-events-container {
+  width: 79%;
 }

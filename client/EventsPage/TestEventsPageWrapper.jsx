@@ -2,8 +2,8 @@ import React from 'react';
 import TrackerReact from 'meteor/ultimatejs:tracker-react';
 import SideNavBarTest from '../layouts/SideNavBar';
 import EventSingle from './EventSingle.jsx';
-Events = new Mongo.Collection('events');
-export default class EventsPageWrapper extends TrackerReact(React.Component) {
+
+export default class TestEventsPageWrapper extends TrackerReact(React.Component) {
   constructor() {
     super();
     this.state = {
