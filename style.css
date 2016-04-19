@@ -3,7 +3,7 @@
 }
 
 #side-nav {
-  background-color:#FFCF09 !important;
+  
 }
 
 .side-nav-list {
@@ -17,8 +17,10 @@
 
 .event-item {
   list-style-type: none;
+  padding-bottom: 20px;
 }
 
 #event-container {
-  background-color: blue;
+  background-color: #EBEBEB;
+  border-radius: 10px;
 }

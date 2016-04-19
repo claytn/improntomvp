@@ -1,9 +1,12 @@
 Meteor.methods({
-  addEvent(event, time, loc, des) {
+  addEvent(event, time, loc, des, day, type, nop) {
     check(event, String);
     check(time, String);
     check(loc, String);
     check(des, String);
+    check(day, String);
+    check(type, String);
+    check(nop, String);
     if (!Meteor.userId()) {
       throw new Meteor.Error('not-authorized');
     }
@@ -12,22 +15,12 @@ Meteor.methods({
       time: time,
       loc: loc,
       des: des,
+      day: day,
+      type: type,
+      nop: nop,
       createdAt: new Date(),
       user: Meteor.userId()
     });
-    // Events.insert({
-    //   name: event,
-    //   time: time,
-    //   loc: location,
-    //   tags: {
-    //     tag1: tag1,
-    //     tag2: tag2,
-    //     tag3: tag3
-    //   },
-    //   des: description,
-    //   createdAt: new Date(),
-    //   user: Meteor.userId()
-    // });
   },
   deleteEvent(event) {
     check(event, Object);
