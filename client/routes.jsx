@@ -6,6 +6,8 @@ import HomePageWrapper from './HomePage/HomePageWrapper.jsx';
 import EventsPageWrapper from './EventsPage/EventsPageWrapper';
 import EventDetail from './EventsPage/EventDetail.jsx';
 import SupportPageWrapper from './SupportPage/SupportPageWrapper.jsx';
+import HowItWorks from './HowItWorksPage/HowItWorks.jsx';
+import EventsForm from './EventsPage/EventsForm.jsx'
 
 
 FlowRouter.route('/', {
@@ -37,6 +39,22 @@ FlowRouter.route('/support', {
   action() {
     mount(MainLayout, {
       content: (<SupportPageWrapper />)
+    })
+  }
+});
+
+FlowRouter.route('/howitworks', {
+  action() {
+    mount(MainLayout, {
+      content: (<HowItWorks />)
+    })
+  }
+});
+
+FlowRouter.route('/addevent', {
+  action() {
+    mount(MainLayout, {
+      content: (<EventsForm />)
     })
   }
 });
