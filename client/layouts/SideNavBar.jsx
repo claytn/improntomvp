@@ -1,6 +1,15 @@
 import React from 'react';
 
 export default class SideNavBar extends React.Component {
+
+  // filterType() {
+  //   // detect click of button
+  //   // get that value
+  //   // based on value, return that type or tag (switch statment)
+  //   // pass this to EventsPageWrapper and render events based on return value
+  //   // Events.find( {type: '???'} );
+  // }
+
   render() {
     return(
       <div>

@@ -8,7 +8,7 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
     super();
     this.state = {
       subscription: {
-        events: Meteor.subscribe("userEvents")
+        events: Meteor.subscribe("displayEvents")
       }
     }
   }
