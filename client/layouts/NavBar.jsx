@@ -5,7 +5,7 @@ export default class NavBar extends React.Component {
   render() {
     return(
       <div>
-        <nav className="navbar navbar-default">
+        <nav className="navbar navbar-fixed-top">
           <div className="container-fluid">
             <div className="navbar-header">
               <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -18,12 +18,12 @@ export default class NavBar extends React.Component {
             </div>
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul className="nav navbar-nav">
-                <li><a href="/">Home</a></li>
-                <li><a href="/events">Events</a></li>
-                <li><a href="/howitworks">How It Works</a></li>
-                <li><a href="/support">Support</a></li>
-                <li><a href="/addevent">Add Event</a></li>
-                <li><a href="/testevents">Test Events Page</a></li>
+                <li className="main-nav-item"><a href="/">Home</a></li>
+                <li className="main-nav-item"><a href="/events">Events</a></li>
+                <li className="main-nav-item"><a href="/howitworks">How It Works</a></li>
+                <li className="main-nav-item"><a href="/support">Support</a></li>
+                <li className="main-nav-item"><a href="/addevent">Add Event</a></li>
+                <li className="main-nav-item"><a href="/testevents">Test Events Page</a></li>
               </ul>
               <ul className="nav navbar-nav navbar-right">
                 <li id="accounts-ui"><AccountsUI /></li>
