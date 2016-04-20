@@ -5,5 +5,5 @@ Meteor.publish("allEvents", function() {
 });
 
 Meteor.publish("userEvents", function() {
-  return Events.find({user: this.userId});
+  return Events.find();
 });

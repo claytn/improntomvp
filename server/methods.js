@@ -7,9 +7,6 @@ Meteor.methods({
     check(day, String);
     check(type, String);
     check(nop, String);
-    if (!Meteor.userId()) {
-      throw new Meteor.Error('not-authorized');
-    }
     Events.insert({
       text: event,
       time: time,
@@ -24,9 +21,6 @@ Meteor.methods({
   },
   deleteEvent(event) {
     check(event, Object);
-    if (Meteor.userId() !== event.user) {
-      throw new Meteor.Error('not-authorized');
-    }
     Events.remove(event._id);
   }
 });
