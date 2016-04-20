@@ -33,8 +33,8 @@ export default class EventSingle extends React.Component {
       // </li>
       <li className="event-item">
         <div className="event-single-container">
-          <div className="event-picture">
-            <img src="http://placehold.it/150x203" />
+          <div className="event-picture-div">
+            <img className="event-picture" src="http://placehold.it/150x203" />
           </div>
           <div className="event-information">
             <p>{this.props.event.text}</p>
