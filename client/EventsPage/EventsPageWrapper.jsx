@@ -21,6 +21,8 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
     this.setState({filter: e.target.value});
   }
 
+  // handle a user signing up for an event 
+
   events() {
     let filter = this.state.filter;
     switch (filter) {
