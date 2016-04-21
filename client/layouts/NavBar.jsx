@@ -23,7 +23,6 @@ export default class NavBar extends React.Component {
                 <li className="main-nav-item"><a href="/howitworks">How It Works</a></li>
                 <li className="main-nav-item"><a href="/support">Support</a></li>
                 <li className="main-nav-item"><a href="/addevent">Add Event</a></li>
-                <li className="main-nav-item"><a href="/testevents">Test Events Page</a></li>
               </ul>
               <ul className="nav navbar-nav navbar-right">
                 <li id="accounts-ui"><AccountsUI /></li>

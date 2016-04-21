@@ -4,7 +4,6 @@ import {mount} from 'react-mounter';
 import {MainLayout} from './layouts/MainLayout.jsx';
 import HomePageWrapper from './HomePage/HomePageWrapper.jsx';
 import EventsPageWrapper from './EventsPage/EventsPageWrapper';
-import TestEventsPageWrapper from './EventsPage/TestEventsPageWrapper.jsx';
 import EventDetail from './EventsPage/EventDetail.jsx';
 import SupportPageWrapper from './SupportPage/SupportPageWrapper.jsx';
 import HowItWorks from './HowItWorksPage/HowItWorks.jsx';
@@ -24,14 +23,6 @@ FlowRouter.route('/events', {
   action() {
     mount(MainLayout, {
       content: (<EventsPageWrapper />)
-    })
-  }
-});
-
-FlowRouter.route('/testevents', {
-  action() {
-    mount(MainLayout, {
-      content: (<TestEventsPageWrapper />)
     })
   }
 });
