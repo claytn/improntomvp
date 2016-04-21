@@ -7,25 +7,6 @@ export default class EventSingle extends React.Component {
   }
   render() {
     return(
-      /* All on one line
-      label-default - grey
-      label-primary - blue
-      label-success - green
-      label-info - baby blue
-      label-warning - orange
-      label-danger - red
-        Idea: Maybe a container with seperate containers for each label
-        Clock, Day, Month, Date # | Time in gray label
-        Free in yellow label
-        Type in pink label
-        limited to max num of people in purple label
-      */
-      /*
-        Description below the one line
-      */
-      /*
-        Green button 'Reserve a spot' to the right of all of this
-      */
       <li className="event-item">
         <div className="event-single-container">
           <div className="event-picture-div">
