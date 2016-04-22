@@ -1,0 +1,475 @@
+/*#FF7469 pink
+#FFCF09 yellow*/
+
+@media (max-width: 320px) {
+  .taglineTwo {
+    font-size: 1.8em;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  #taglineOne {
+
+  }
+
+  #taglineTwo {
+
+  }
+}
+
+#mainContainer {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+}
+
+#taglineTwo {
+  font-weight: 700;
+}
+
+#footer {
+  background-color: #FF7469;
+  color: white;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar{
+  background-color: #FF7469;
+}
+
+.nav-link {
+  color: white;
+}
+
+.align-left {
+  text-align: left !important;
+}
+
+.pink {
+  color: #FF7469 !important;
+}
+
+.yellow {
+  color: #FFCF09 !important;
+}
+
+.white {
+  color: white !important;
+}
+
+.hiw-title {
+  color: #FFCF09;
+  font-weight: bold;
+}
+
+.center-block {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.info-answer {
+  padding-bottom: 20px;
+}
+
+.muli {
+  font-family: 'Muli', sans-serif;
+}
+
+.ubuntu {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-primary {
+  background-color: #FF7469;
+  border-color: #FF7469;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background-color: #ff7e75;
+  border-color: #ff7e75;
+}
+
+#createEvent {
+  height: 60% !important;
+  width: 75%;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-width: 2px;
+}
+
+#createEvent:hover, #createEvent:active {
+  border-color: white;
+  background-color: white;
+  color: #FF7469;
+}
+
+#eventsContainer h3 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+#imagesSection {
+  padding-top: 20px;
+}
+
+.ict {
+  padding-bottom: 20px;
+  color: white;
+  font-weight: bolder;
+}
+
+.nav-item {
+  color: black;
+}
+
+#infoContainer {
+  background-color: #FF7469;
+  padding-bottom: 100px !important;
+}
+
+#eventsContainer {
+  background-color: #FF7469;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #ffff7c;
+}
+
+#emailInput {
+  padding-top: 0px !important;
+  width: 100%;
+}
+
+#buttonDiv {
+  padding-top: 5px;
+}
+#howItWorks {
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  color: black;
+}
+
+.hiw-title {
+  padding-top: 60px;
+  font-weight: bolder;
+}
+
+.hiw-des-title {
+  padding-top: 25px !important;
+}
+
+.hiw-image {
+  padding-top: 75px;
+}
+
+.hiw-des {
+  padding-bottom: 100px !important;
+}
+
+#howItWorks span {
+  color: #ff7469;
+}
+
+#howItWorks i {
+  color: #ff7469;
+}
+
+#howItWorks h5 {
+  color: #ff7469;
+}
+
+#betaText {
+  padding-top: 6px !important;
+}
+
+
+.figure-caption {
+  color: white;
+}
+
+#addButton {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#figureButton {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#inputContainer {
+  padding-top: 10px;
+}
+
+i:hover {
+  color: #FFCF09;
+}
+
+#figureButton{
+  border-radius: 2px;
+  border-width: thin;
+  border-color: white;
+  boder-style: solid;
+}
+
+/* Small Phones */
+@media (max-width: 33em) {
+
+  #mainContainer {
+    width: 100%:
+    height: 600px;
+  }
+  #mainContainer .need-space {
+    padding-top: 10px;
+  }
+
+  #inputContent {
+    padding-top: 10px;
+  }
+
+  #taglineOne {
+
+  }
+
+  #taglineTwo {
+
+  }
+
+  #eventsContainer {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  #infoContainer {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  #infoContainer .row {
+    padding-top: 20px;
+  }
+}
+
+/* Medium and Large Phones */
+@media (min-width: 34em) {
+
+  #mainContainer {
+    width: 100%;
+    height: 600px;
+  }
+
+  #mainContainer .need-space {
+    padding-top: 10px;
+  }
+
+  #inputContent {
+    padding-top: 10px;
+  }
+
+  #taglineTwo {
+
+  }
+
+  #eventsContainer {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-img-top {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #howItWorks .col-md-3 {
+    padding-top: 0px !important;
+  }
+
+  #infoContainer {
+
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  #infoContainer .row {
+    padding-top: 20px;
+  }
+
+}
+
+/* Medium devices (tablets, 48em and up) */
+@media (min-width: 48em) {
+
+  .right-nav-item {
+    padding-right: 50px;
+  }
+
+  .navbar-brand {
+    padding-left: 50px;
+  }
+
+  #mainContainer {
+    width: 100%;
+    height: 600px;
+  }
+
+  #mainContainer .need-space {
+    padding-top: 20px;
+  }
+
+  #inputContent {
+    padding-top: 20px;
+  }
+
+  .card-img-top {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #eventsContainer {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  #howItWorks .col-md-3 {
+    padding-top: 0px !important;
+  }
+
+  #infoContainer {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+
+  #infoContainer .row {
+    padding-top: 40px;
+  }
+
+}
+
+
+/* Large devices (desktops, 62em and up) */
+@media (min-width: 62em) {
+
+  .right-nav-item {
+    padding-right: 50px;
+  }
+
+  .navbar-brand {
+    padding-left: 50px;
+    font-size: 1.6em;
+  }
+
+  #mainContainer {
+    width: 100%;
+    height: 600px;
+  }
+
+  #mainContainer .need-space {
+    padding-top: 20px;
+  }
+
+  #inputContent {
+    padding-top: 0px;
+  }
+
+  #eventsContainer {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .maitre-section {
+    padding-left: 30px !important;
+    /*align-content: center !important;*/
+  }
+
+  .card-img-top {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #howItWorks .col-md-3 {
+    padding-top: 0px !important;
+  }
+
+  #infoContainer {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  #infoContainer .row {
+    padding-top: 40px;
+  }
+
+}
+
+/* Extra large devices (large desktops, 75em and up) */
+@media (min-width: 75em) {
+
+  .right-nav-item {
+    padding-right: 50px;
+  }
+
+  .navbar-brand {
+    padding-left: 50px;
+    font-size: 2.0em;
+  }
+
+  #mainContainer {
+    width: 100%;
+    height: 600px;
+  }
+
+  #mainContainer .need-space {
+    padding-top: 20px;
+  }
+
+  #inputContent {
+    padding-top: 0px;
+  }
+
+  #eventsContainer {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  #infoContainer {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-img-top {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #infoContainer .row {
+    padding-top: 40px;
+  }
+
+}

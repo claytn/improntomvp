@@ -30,7 +30,7 @@ export default class EventsForm extends React.Component {
 
   render() {
     return(
-      <div className="col-md-6 col-md-offset3">
+      <div className="col-md-6 col-md-offset3 event-div">
         <form className="new-event">
           <div className="form-group">
             <input type="text" ref="event" className="form-control" id="addEventName" placeholder="Name of event" />
