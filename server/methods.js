@@ -1,5 +1,5 @@
 Meteor.methods({
-  addEvent(event, time, loc, des, day, type, nop) {
+  addEvent(event, time, loc, des, day, type, nop, price) {
     check(event, String);
     check(time, String);
     check(loc, String);
@@ -15,6 +15,7 @@ Meteor.methods({
       day: day,
       type: type,
       nop: nop,
+      price: price,
       createdAt: new Date(),
       user: Meteor.userId()
     });

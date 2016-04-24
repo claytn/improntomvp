@@ -3,22 +3,39 @@
   padding: 0;
 }
 
+.navbar {
+  background-color: #FF7469;
+  border-color: #FF7469;
+  border-radius: 0;
+}
+
 #accounts-ui {
   padding-top: 15px;
   padding-right: 200px;
 }
 
 .side-nav-list {
+  margin: 0 !important;
   list-style-type: none;
 }
 
 .side-nav-item-text {
   font-family: 'Ubuntu', sans-serif;
   list-style-type: none;
+  margin: 0 !important;
 }
 
 .side-nav-item {
   font-family: 'Ubuntu', sans-serif;
+  margin: 0 !important;
+}
+
+.btn-filter:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.activity-filter {
+  padding-bottom: 10px;
 }
 
 .event-item {
@@ -28,12 +45,6 @@
 
 #event-container {
   background-color: #EBEBEB;
-}
-
-.navbar {
-  background-color: #FF7469;
-  border-color: #FF7469;
-  border-radius: 0;
 }
 
 .main-nav-item {
@@ -49,6 +60,12 @@
   position:relative;
   z-index:2;
   margin-left: 100px;
+}
+
+@media (max-width: 850px) {
+  .side-nav-container {
+    display: none;
+  }
 }
 
 .side-nav-container {
@@ -69,10 +86,6 @@
   width: 20%;
 }
 
-.event-picture {
-
-}
-
 .event-information {
   width: 70%;
 }
@@ -85,19 +98,17 @@
   display: inline-block;
 }
 
-.btn-reserve {
-  height: 150px;
-  width: 100%;
-}
-
-.event-reserve-button {
-  width: 10%;
-}
-
 #howitworks {
   padding-top: 100px;
 }
 
 .new-event {
   padding-top: 100px;
+}
+
+.btn-default{
+  background-color: #FFCF09;
+  color: white;
+  margin: 0 !important;
+  padding: 0 !important;
 }

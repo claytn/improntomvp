@@ -11,8 +11,9 @@ export default class EventsForm extends React.Component {
     var day = this.refs.day.value.trim();
     var type = this.refs.type.value.trim();
     var nop = this.refs.nop.value.trim();
+    var price = this.refs.price.value.trim();
     if (text, time) {
-      Meteor.call('addEvent', text, time, loc, des, day, type, nop, (error, data)=> {
+      Meteor.call('addEvent', text, time, loc, des, day, type, nop, price, (error, data)=> {
         if (error) {
           Bert.alert('Please log in before submitting an event', 'danger', 'fixed-top', 'fa-frown-o');
         } else {
@@ -23,6 +24,7 @@ export default class EventsForm extends React.Component {
           this.refs.day.value = "";
           this.refs.type.value = "";
           this.refs.nop.value = "";
+          this.refs.price.value = "";
         }
       });
     }
@@ -40,6 +42,7 @@ export default class EventsForm extends React.Component {
             <input type="text" ref="time" className="form-control" id="addEventTime" placeholder="Time of event" />
             <input type="text" ref="loc" className="form-control" id="addEventLoc" placeholder="Location of event" />
             <input type="text" ref="des" className="form-control" id="addEventDes" placeholder="Description of event" />
+            <input type="text" ref="price" className="form-control" id="addEventPrice" placeholder="Price of event" />
             <button className="btn btn-default" onClick={this.addEvent.bind(this)}>Add Event</button>
           </div>
         </form>
