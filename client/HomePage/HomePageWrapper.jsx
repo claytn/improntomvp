@@ -5,41 +5,6 @@ export default class HomePageWrapper extends React.Component {
   render() {
     return(
       <div>
-      <div id="navContainer">
-        <nav className="navbar fixed-top">
-          <div className="navbar-header">
-            <a className="navbar-brand ubuntu" href="http://impronto.com"><font color="#FFCF09">im</font><font color="#FFFFFF">pronto</font></a>
-            <button className="navbar-toggler hidden-sm-up pull-xs-right" type="button" data-toggle="collapse" data-target="#navCollapse">
-              &#9776;
-            </button>
-          </div>
-          <div className="collapse navbar-toggleable-xs" id="navCollapse">
-            <ul className="nav navbar-nav pull-md-right">
-              <li className="nav-item muli right-nav-item">
-                <a className="nav-link" href="#infoContainer" id="listGigLink"><h4>How it works</h4></a>
-              </li>
-              <li className="nav-item muli right-nav-item">
-                <a className="nav-link" href="#" id="supportButton"><h4>Support</h4></a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
-        <div className="modal fade" id="supportModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div className="modal-dialog" role="document">
-            <div className="modal-content">
-              <div className="modal-body">
-
-                <div className="typeform-widget" data-url="https://sidd4.typeform.com/to/nTzVYL" data-text="Impronto Support Form"></div>
-
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
       <div id="mainContainer" className="container-fluid">
         <div className="mainContent">
           <div className="row need-space">
@@ -216,8 +181,6 @@ export default class HomePageWrapper extends React.Component {
           <p className="text-xs-right muli"> Icons designed by <a href="http://www.freepik.com/">Freepik</a></p>
         </div>
       </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
     </div>
     );
   }
