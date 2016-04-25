@@ -85,7 +85,7 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
 
   render() {
     return(
-      <div className="events-container">
+      <div id="event-page-container" className="col">
         <div className="side-nav-container">
           <p className="side-nav-item-text text-xs-center activity-filter">activity filter</p>
           <p className="side-nav-item-text text-xs-center"><font color="#FF7469">day</font></p>
