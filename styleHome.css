@@ -7,6 +7,11 @@
   }
 }
 
+.navbar {
+  background-color: #FF7469 !important;
+  border-radius: 0;
+}
+
 #mainContainer {
   background-image: url('http://impronto.com/assets/images/impbgfinalfinal.png');
   background-size: cover;
