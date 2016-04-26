@@ -12,6 +12,11 @@
   border-radius: 0;
 }
 
+#navList{
+  float:right !important;
+  color: white !important;
+}
+
 #mainContainer {
   background-image: url('http://impronto.com/assets/images/impbgfinalfinal.png');
   background-size: cover;
