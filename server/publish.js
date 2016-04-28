@@ -10,15 +10,3 @@ Meteor.publish("displayEvents", function() {
 //   return Events.find();
 // });
 
-// Meteor.publish("filterEvents", function(param) {
-//   switch (param) {
-//     case 'Sunday':
-//       return Events.find( {day: 'Sunday'} );
-//       break;
-//     case: 'Monday':
-//
-//       break;
-//     default:
-//
-//   }
-// })
