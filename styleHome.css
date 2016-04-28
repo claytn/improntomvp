@@ -12,6 +12,21 @@
   border-radius: 0;
 }
 
+#navList{
+  float:right !important;
+
+  padding-right: 160px;
+}
+
+#logoHeader{
+  padding-left: 150px !important;
+}
+.listItem{
+  border-right: solid 4px white !important;
+  border-radius: 2px;
+  padding-right: 8px;
+  color: white;
+}
 #mainContainer {
   background-image: url('http://impronto.com/assets/images/impbgfinalfinal.png');
   background-size: cover;
