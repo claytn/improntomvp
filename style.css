@@ -9,21 +9,23 @@
 }
 
 .side-nav-item-text {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'proxima-nova', 'Proxima Nova', sans-serif;
   list-style-type: none;
   margin: 0 !important;
 }
 
 .side-nav-item {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'proxima-nova', 'Proxima Nova', sans-serif;
   margin: 0 !important;
 }
 
 .btn-filter:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #F1F1F1;
+  color: black;
 }
 
 .activity-filter {
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
@@ -43,12 +45,16 @@
 
 .side-nav-container {
   width: 15%;
-  background-color: #FFCF09;
+  background-color: #F9F9F9;
   position:fixed;
   height:100%;
   left:0;
   top:51px;
   z-index:1;
+}
+
+.events {
+  padding-top: 50px;
 }
 
 #howitworks {
@@ -60,8 +66,8 @@
 }
 
 .btn-default{
-  background-color: #FFCF09;
-  color: white;
+  background-color: #F9F9F9;
+  color: #9F9999;
   margin: 0 !important;
   padding: 0 !important;
 }
