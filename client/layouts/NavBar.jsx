@@ -13,19 +13,19 @@ export default class NavBar extends React.Component {
             <a className="navbar-brand ubuntu white" id="logoHeader" href="/"><span className="yellow">Im</span>pronto</a>
             <ul className="nav navbar-nav" id="navList">
               <li className="nav-item listItem">
-                <a className="nav-link" href="/events">Events</a>
+                <a className="nav-link white" href="/events"><strong>Events</strong></a>
               </li>
               <li className="nav-item listItem">
-                <a className="nav-link" href="/howitworks">How It Works</a>
+                <a className="nav-link white" href="/howitworks"><strong>How It Works</strong></a>
               </li>
               <li className="nav-item listItem">
-                <a className="nav-link" href="/support">Support</a>
+                <a className="nav-link white" href="/support"><strong>Support</strong></a>
               </li>
               <li className="nav-item listItem">
-                <a className="nav-link" href="/addevent">Add Event</a>
+                <a className="nav-link white" href="/addevent"><strong>Add Event</strong></a>
               </li>
               <li className="nav-item listItem">
-                <a className="nav-link" href="#"><AccountsUI /></a>
+                <a className="nav-link yellow" href="#"><AccountsUI /></a>
               </li>
             </ul>
           </div>

@@ -10,22 +10,46 @@
 .navbar {
   background-color: #FF7469 !important;
   border-radius: 0;
+  color: white !important;
 }
+
+
+.introContainer{
+  position: relative;
+  top: 60px;
+  right: 10px;
+  font-weight: bold !important;
+}
+
+#inputContainer{
+  position: relative;
+  padding-top: 400px !important;
+}
+
+
 
 #navList{
   float:right !important;
-
   padding-right: 160px;
 }
 
+
+.nav .navbar-nav li a:hover{
+  color: #FFCF09 !important;
+}
+
+
+
 #logoHeader{
+  font-size: 1.3em;
   padding-left: 150px !important;
 }
 .listItem{
   border-right: solid 4px white !important;
-  border-radius: 2px;
-  padding-right: 8px;
-  color: white;
+
+  padding-right: 12px;
+  color: white !important;
+
 }
 #mainContainer {
   background-image: url('http://impronto.com/assets/images/impbgfinalfinal.png');
