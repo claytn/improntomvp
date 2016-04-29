@@ -1,12 +1,5 @@
 Meteor.methods({
   addEvent(event, time, loc, des, day, type, nop, price) {
-    check(event, String);
-    check(time, String);
-    check(loc, String);
-    check(des, String);
-    check(day, String);
-    check(type, String);
-    check(nop, String);
     Events.insert({
       text: event,
       time: time,

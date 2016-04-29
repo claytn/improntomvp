@@ -5,7 +5,7 @@ export default class NavBar extends React.Component {
   render() {
     return(
       <div>
-        <nav className="navbar navbar-light">
+        <nav className="navbar navbar-light navbar-fixed-top">
           <button className="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
             &#9776;
           </button>
@@ -24,8 +24,8 @@ export default class NavBar extends React.Component {
               <li className="nav-item listItem">
                 <a className="nav-link" href="/addevent">Add Event</a>
               </li>
-              <li className="nav-item">
-                <AccountsUI />
+              <li className="nav-item listItem">
+                <a className="nav-link" href="#"><AccountsUI /></a>
               </li>
             </ul>
           </div>
