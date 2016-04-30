@@ -12,22 +12,25 @@ reactive-var            # Reactive variable for tracker
 jquery                  # Helpful client-side library
 tracker                 # Meteor's client-side reactive programming library
 
-standard-minifier-css   # CSS minifier run for production mode
-standard-minifier-js    # JS minifier run for production mode
+standard-minifiers
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 kadira:flow-router      # Routing system
 meteortoys:allthings    # Meteor Toys
 ultimatejs:tracker-react
-stolinski:stylus-multi
+kadira:blaze-layout
+gadicc:blaze-react-component
+aldeed:template-extension
+
 check
-accounts-ui
-accounts-password
+
 themeteorchef:bert
 momentjs:moment
 fortawesome:fontawesome
 chuikoff:bootstrap-4
-accounts-twitter
-accounts-facebook
-accounts-google
+raix:handlebar-helpers
+
+accounts-base
+accounts-password
+useraccounts:unstyled

@@ -1,5 +1,6 @@
 import React from 'react';
-import AccountsUI from '../AccountsUI.jsx';
+import SkyLight from 'react-skylight';
+import Blaze from 'meteor/gadicc:blaze-react-component';
 
 export default class NavBar extends React.Component {
   render() {
@@ -25,11 +26,18 @@ export default class NavBar extends React.Component {
                 <a className="nav-link white" href="/addevent"><strong>Add Event</strong></a>
               </li>
               <li className="nav-item listItem">
+<<<<<<< HEAD
                 <a className="nav-link yellow" href="#"><AccountsUI /></a>
+=======
+                <button className="btn btn-secondary-outline" onClick={()=> this.refs.simpleDialog.show()}>Log In</button>
+>>>>>>> cbranch
               </li>
             </ul>
           </div>
         </nav>
+        <SkyLight hideOnOverlayClicked ref="simpleDialog" title="Impronto">
+          <Blaze template="LogInModal" />
+        </SkyLight>
       </div>
     );
   }
