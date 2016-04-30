@@ -26,27 +26,30 @@
   padding-top: 400px !important;
 }
 
-
-
 #navList{
   float:right !important;
   padding-right: 160px;
+  position: relative;
+  top: 12px !important;
 }
 
-
-.nav .navbar-nav li a:hover{
+li a:hover{
   color: #FFCF09 !important;
 }
 
-
-
 #logoHeader{
   font-size: 1.3em;
-  padding-left: 150px !important;
+  padding-left: 100px !important;
 }
-.listItem{
-  border-right: solid 4px white !important;
 
+.boost{
+  position: relative;
+  bottom: 10px;
+}
+
+.listItem{
+  border-right: solid 3px white !important;
+  height: 20px !important;
   padding-right: 12px;
   color: white !important;
 
@@ -301,10 +304,6 @@ i:hover {
 
   #inputContent {
     padding-top: 10px;
-  }
-
-  #taglineTwo {
-
   }
 
   #eventsContainer {
