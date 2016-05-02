@@ -86,10 +86,10 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
 
   render() {
     return(
-      <div id="event-page-container" className="col">
+      <div className="event-page-container">
         <div className="side-nav-container">
-          <p className="side-nav-item-text text-xs-center activity-filter">filter</p>
-          <p className="side-nav-item-text text-xs-center">Day</p>
+          <p className="side-nav-item-text activity-filter">filter</p>
+          <p className="side-nav-item-text">Day</p>
           <ul className="side-nav-list">
             <li className="side-nav-item">
               <button type="button" value="All" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>All</button>
@@ -116,7 +116,7 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
               <button type="button" value="Saturday" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Saturday</button>
             </li>
           </ul>
-          <p className="side-nav-item-text text-xs-center">Type</p>
+          <p className="side-nav-item-text">Type</p>
           <ul className="side-nav-list">
             <li className="side-nav-item">
               <button type="button" value="All" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>All</button>
@@ -143,7 +143,7 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
               <button type="button" value="Shows" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Shows</button>
             </li>
           </ul>
-          <p className="side-nav-item-text text-xs-center">People</p>
+          <p className="side-nav-item-text">People</p>
           <ul className="side-nav-list">
             <li className="side-nav-item">
               <button type="button" value="All" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>All</button>
@@ -155,7 +155,7 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
               <button type="button" value="sixeight" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>6-8</button>
             </li>
           </ul>
-          <p className="side-nav-item-text text-xs-center">Price</p>
+          <p className="side-nav-item-text">Price</p>
           <ul className="side-nav-list">
             <li className="side-nav-item">
               <button type="button" value="All" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>All</button>
@@ -169,7 +169,7 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
           </ul>
         </div>
         <div className="events-container">
-          <ul className="events">
+          <ul className="events-list">
             {this.events().map( (event)=> {
               return <EventSingle key={event._id} event={event} />
             })}

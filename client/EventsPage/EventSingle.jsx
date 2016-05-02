@@ -8,12 +8,10 @@ export default class EventSingle extends React.Component {
   render() {
     return(
       <li className="event-item">
-        <div className="row">
-          <div className="col-md-8 col-md-offset-2">
-            <div className="col-md-2">
+            <div className="image-container">
               <img src="http://placehold.it/150x203" />
             </div>
-            <div className="col-md-8">
+            <div className="info-container">
               <p>{this.props.event.text}</p>
               <p>{this.props.event.des}</p>
               <h5>
@@ -27,11 +25,9 @@ export default class EventSingle extends React.Component {
               </h5>
 
             </div>
-            <div className="col-md-2">
+            <div className="button-container">
               <button type="button" className="btn btn-success btn-sm">Reserve a spot</button>
             </div>
-          </div>
-        </div>
       </li>
     )
   }

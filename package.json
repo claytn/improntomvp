@@ -5,6 +5,7 @@
     "start": "meteor run"
   },
   "dependencies": {
+    "bourbon": "^4.2.7",
     "meteor-node-stubs": "~0.2.0",
     "react": "^15.0.1",
     "react-dom": "^15.0.1",
