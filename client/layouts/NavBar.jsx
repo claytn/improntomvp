@@ -26,7 +26,7 @@ export default class NavBar extends React.Component {
                 <a className="nav-link white ubuntu" href="/addevent"><span className="boost">Add Event</span></a>
               </li>
               <li className="nav-item">
-                <button className="btn btn-secondary-outline" onClick={()=> this.refs.simpleDialog.show()}>Log In</button>
+                <button className="btn  btn-sm btn-primary-outline" onClick={()=> this.refs.simpleDialog.show()}>Log In</button>
               </li>
             </ul>
           </div>

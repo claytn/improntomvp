@@ -6,8 +6,6 @@ export const MainLayout = ({content}) => (
     <header>
       <NavBar />
     </header>
-    <main>
-      {content}
-    </main>
+    {content}
   </div>
 )

@@ -1,0 +1,70 @@
+
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* Container Styles*/
+
+.event-page-container {
+  margin-top: 65px;
+  border: 3px solid yellowgreen;
+  display: flex;
+}
+
+/* Side Nav Styles*/
+
+.side-nav-container {
+  border: 3px solid skyblue;
+  height: 100%;
+  position: fixed;
+
+  ul {
+    list-style: none;
+  }
+}
+
+/* Events Container Styles */
+
+.events-container {
+  order: 2;
+  border: 3px solid royalblue;
+  margin: 0 auto !important;
+  justify-content: center;
+  display: flex;
+}
+.events-list {
+  margin-right: 40px;
+}
+
+.event-item {
+  background: rgba(0, 0, 0, .1);
+  border: 2px solid deepskyblue;
+  display: flex;
+  margin: 10px;
+}
+
+.btn-default{
+  background-color: #F9F9F9;
+  color: #9F9999;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Single Event Styles */
+
+
+
+.button-container {
+
+}
+
+.label-pill {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.info-container p {
+  margin-left: 3px;
+}
