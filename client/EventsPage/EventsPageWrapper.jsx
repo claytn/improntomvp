@@ -28,46 +28,22 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
     let filter = this.state.filter;
     switch (filter) {
       case 'Sunday':
-        return Events.find( {day: 'Sunday'} );
-        break;
       case 'Monday':
-        return Events.find( {day: 'Monday'} );
-        break;
       case 'Tuesday':
-        return Events.find( {day: 'Tuesday'} );
-        break;
       case 'Wednesday':
-        return Events.find( {day: 'Wednesday'} );
-        break;
       case 'Thursday':
-        return Events.find( {day: 'Thursday'} );
-        break;
       case 'Friday':
-        return Events.find( {day: 'Friday'} );
-        break;
       case 'Saturday':
-        return Events.find( {day: 'Saturday'} );
+        return Events.find( {day: filter} );
         break;
       case 'Fitness':
-        return Events.find( {type: 'Fitness'} );
-        break;
       case 'FoodAndDrink':
-        return Events.find( {type: 'FoodAndDrink'} );
-        break;
       case 'Beauty':
-        return Events.find( {type: 'Beauty'} );
-        break;
       case 'Games':
-        return Events.find( {type: 'Games'} );
-        break;
       case 'Movies':
-        return Events.find( {type: 'Movies'} );
-        break;
       case 'Art':
-        return Events.find( {type: 'Art'} );
-        break;
       case 'Shows':
-        return Events.find( {type: 'Shows'} );
+        return Events.find( {type: filter} );
         break;
       case 'fourfive':
         return Events.find( {nop: '4-5'} );
@@ -76,9 +52,9 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
         return Events.find( {nop: '6-8'} );
         break;
       case 'Free':
-        return Events.find( {price: 'Free'} );
       case 'Paid':
-        return Events.find( {price: 'Paid'} );
+        return Events.find( {price: filter} );
+        break;
       default:
         return Events.find().fetch();
     }
