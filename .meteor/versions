@@ -15,7 +15,6 @@ caching-compiler@1.0.4
 caching-html-compiler@1.0.6
 callback-hook@1.0.8
 check@1.2.1
-chuikoff:bootstrap-4@0.0.1
 coffeescript@1.0.17
 dburles:mongo-collection-instances@0.3.4
 ddp@1.2.5
@@ -49,6 +48,7 @@ launch-screen@1.0.11
 livedata@1.0.18
 localstorage@1.0.9
 logging@1.0.12
+materialize:materialize@0.97.5
 meteor@1.1.14
 meteor-base@1.0.4
 meteortoys:allthings@2.3.1

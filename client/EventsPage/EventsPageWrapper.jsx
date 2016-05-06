@@ -22,9 +22,10 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
     this.setState({filter: e.target.value});
   }
 
-  // handle a user signing up for an event
+  //TODO: handle a user signing up for an event
 
   events() {
+    // TODO: find better way to handle filtering events
     let filter = this.state.filter;
     switch (filter) {
       case 'Sunday':
@@ -62,89 +63,89 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
 
   render() {
     return(
-      <div className="event-page-container">
-        <div className="side-nav-container">
+      <div className="event-page-container row">
+        <div className="side-nav-container col s2">
           <p className="side-nav-item-text activity-filter">filter</p>
           <p className="side-nav-item-text">Day</p>
           <ul className="side-nav-list">
             <li className="side-nav-item">
-              <button type="button" value="All" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>All</button>
+              <button type="button" value="All" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>All</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Sunday" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Sunday</button>
+              <button type="button" value="Sunday" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Sunday</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Monday" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Monday</button>
+              <button type="button" value="Monday" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Monday</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Tuesday" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Tuesday</button>
+              <button type="button" value="Tuesday" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Tuesday</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Wednesday" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Wednesday</button>
+              <button type="button" value="Wednesday" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Wednesday</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Thursday" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Thursday</button>
+              <button type="button" value="Thursday" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Thursday</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Friday" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Friday</button>
+              <button type="button" value="Friday" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Friday</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Saturday" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Saturday</button>
+              <button type="button" value="Saturday" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Saturday</button>
             </li>
           </ul>
           <p className="side-nav-item-text">Type</p>
           <ul className="side-nav-list">
             <li className="side-nav-item">
-              <button type="button" value="All" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>All</button>
+              <button type="button" value="All" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>All</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Fitness" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Fitness</button>
+              <button type="button" value="Fitness" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Fitness</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="FoodAndDrink" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Food & Drink</button>
+              <button type="button" value="FoodAndDrink" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Food & Drink</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Beauty" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Beauty</button>
+              <button type="button" value="Beauty" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Beauty</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Games" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Games</button>
+              <button type="button" value="Games" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Games</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Movies" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Movies</button>
+              <button type="button" value="Movies" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Movies</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Art" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Art</button>
+              <button type="button" value="Art" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Art</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Shows" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Shows</button>
+              <button type="button" value="Shows" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Shows</button>
             </li>
           </ul>
           <p className="side-nav-item-text">People</p>
           <ul className="side-nav-list">
             <li className="side-nav-item">
-              <button type="button" value="All" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>All</button>
+              <button type="button" value="All" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>All</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="fourfive" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>4-5</button>
+              <button type="button" value="fourfive" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>4-5</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="sixeight" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>6-8</button>
+              <button type="button" value="sixeight" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>6-8</button>
             </li>
           </ul>
           <p className="side-nav-item-text">Price</p>
           <ul className="side-nav-list">
             <li className="side-nav-item">
-              <button type="button" value="All" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>All</button>
+              <button type="button" value="All" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>All</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Paid" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Paid</button>
+              <button type="button" value="Paid" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Paid</button>
             </li>
             <li className="side-nav-item">
-              <button type="button" value="Free" className="btn btn-default btn-sm btn-filter" onClick={this.handleChange.bind(this)}>Free</button>
+              <button type="button" value="Free" className="waves-effect waves-light btn-flat red lighten-1" onClick={this.handleChange.bind(this)}>Free</button>
             </li>
           </ul>
         </div>
-        <div className="events-container">
+        <div className="events-container collection col s7">
           <ul className="events-list">
             {this.events().map( (event)=> {
               return <EventSingle key={event._id} event={event} />

@@ -7,28 +7,50 @@ export default class EventSingle extends React.Component {
   }
   render() {
     return(
-      <li className="event-item">
-            <div className="image-container">
-              <img src="http://placehold.it/150x203" />
-            </div>
-            <div className="info-container">
-              <p>{this.props.event.text}</p>
-              <p>{this.props.event.des}</p>
-              <h5>
-                <span className="label label-pill label-default"><i className="fa fa-clock-o" aria-hidden="true"></i> {moment().format('LLLL')} | <i className="fa fa-map-marker" aria-hidden="true"></i> {this.props.event.loc}</span>
-              </h5>
-
-              <h5>
-                <span className="label label-pill label-warning">{this.props.event.type}</span>
-                <span className="label label-pill label-primary">{this.props.event.nop}</span>
-                <span className="label label-pill label-info">{this.props.event.price}</span>
-              </h5>
-
-            </div>
-            <div className="button-container">
-              <button type="button" className="btn btn-success btn-sm">Reserve a spot</button>
-            </div>
+      <li className="collection-item">
+        <div className="row">
+          <div className="col s10">
+            <div className="image-container col s3"><img src="http://placehold.it/150x150" className="circle"/></div>
+              <div className="info-container col s8">
+                <h5>{this.props.event.text}</h5>
+                <p>
+                  <span className="label label-pill label-default"><i className="fa fa-clock-o" aria-hidden="true"></i> {moment().format('LLLL')}<br /><i className="fa fa-map-marker" aria-hidden="true"></i> {this.props.event.loc}</span>
+                </p>
+                <p>{this.props.event.des}</p>
+                <p className="badge">{this.props.event.type} | {this.props.event.nop} | {this.props.event.price}</p>
+              </div>
+              <div className="button-container col s1">
+                <button className="waves-effect waves-light btn red lighten-1">RSVP</button>
+              </div>
+          </div>
+        </div>
       </li>
     )
   }
 }
+
+//
+// <li className="event-item">
+//   <div className="row">
+//     <div className="col s10">
+//       <div className="image-container col s2">
+//         <img src="http://placehold.it/150x203" />
+//       </div>
+//       <div className="info-container col s8">
+//         <p>{this.props.event.text}</p>
+//         <p>{this.props.event.des}</p>
+//         <h5>
+//           <span className="label label-pill label-default"><i className="fa fa-clock-o" aria-hidden="true"></i> {moment().format('LLLL')} | <i className="fa fa-map-marker" aria-hidden="true"></i> {this.props.event.loc}</span>
+//         </h5>
+//         <h5>
+//           <span className="badge">{this.props.event.type}</span>
+//           <span className="badge">{this.props.event.nop}</span>
+//           <span className="badge">{this.props.event.price}</span>
+//         </h5>
+//       </div>
+//       <div className="button-container col s2">
+//         <button className="waves-effect waves-light btn red lighten-1">RSVP</button>
+//       </div>
+//     </div>
+//   </div>
+// </li>
