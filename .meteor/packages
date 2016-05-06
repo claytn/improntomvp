@@ -29,9 +29,9 @@ check
 themeteorchef:bert
 momentjs:moment
 fortawesome:fontawesome
-chuikoff:bootstrap-4
 raix:handlebar-helpers
 
 accounts-base
 accounts-password
 useraccounts:unstyled
+materialize:materialize

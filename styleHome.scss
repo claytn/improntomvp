@@ -33,9 +33,9 @@
   top: 12px !important;
 }
 
-li a:hover{
-  color: #FFCF09 !important;
-}
+// li a:hover{
+//   color: #FFCF09 !important;
+// }
 
 #logoHeader{
   font-size: 1.3em;
@@ -166,8 +166,10 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:active {
-  color: #ffff7c;
+#footer {
+  a:hover, a:active {
+    color: #ffff7c;
+  }
 }
 
 #emailInput {
