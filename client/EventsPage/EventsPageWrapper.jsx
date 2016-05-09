@@ -23,6 +23,7 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
   }
 
   //TODO: handle a user signing up for an event
+  //TODO: this is a test for the repo
 
   events() {
     // TODO: find better way to handle filtering events
