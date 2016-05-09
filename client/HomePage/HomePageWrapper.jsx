@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 export default class HomePageWrapper extends React.Component {
   render() {
     return(
@@ -9,10 +8,10 @@ export default class HomePageWrapper extends React.Component {
         <div className="mainContent">
           <div className="row need-space introContainer">
             <div className="text-xs-center">
-              <h4 className="text-xs-center muli taglineTwo">
+              <h4 className="text-xs-center muli taglineTwo center-align">
                 <font color="#FFFFFF"><strong>Want to do something fun?</strong></font>
               </h4>
-              <h4 className="text-xs-center muli taglineTwo">
+              <h4 className="text-xs-center muli taglineTwo center-align">
                 <font color="#FFFFFF"><strong>Hangout with like-minded people pronto!</strong></font>
               </h4>
             </div>
@@ -20,8 +19,8 @@ export default class HomePageWrapper extends React.Component {
           <div id="inputContainer">
             <div className="row">
               <div className="col-md-4 col-md-offset-4">
-                <form role="form" method="post" id="emailForm">
-                    <input type="text" name="email" className="form-control" placeholder="youremail@umich.edu" id="emailInput"/>
+                <form role="form" method="post" id="emailForm" className="center-align">
+                    <input type="text" name="email" className="form-control center-align" placeholder="youremail@umich.edu" id="emailInput"/>
                     <div className="text-xs-center" id="buttonDiv">
                       <button type="submit" name="submit" className="btn btn-primary" id="accessButton">BETA ACCESS</button>
                     </div>
@@ -49,42 +48,42 @@ export default class HomePageWrapper extends React.Component {
 
 
       <div id="eventsContainer" className="container-fluid">
-        <div className="row">
+        <div className="row center-align">
           <div className="text-xs-center">
             <h3 className="ubuntu" id="eventsContainer-title">What can you do on <font color="#ffcf09">im</font>pronto?</h3>
           </div>
         </div>
-        <div className="row">
+        <div className="row center-align">
           <div className="text-xs-center">
-              <h5 className="muli">
+              <h5 className="muli" id="eventsContainer-subHead">
                 Try new <font color="#FFCF09">activities</font> | Explore new <font color="#FFCF09">experiences</font> | Build new <font color="#FFCF09">stories</font>
               </h5>
           </div>
         </div>
         <div id="imagesSection">
           <div className="row">
-            <div className="col-lg-4 col-md-4 col-sm-4 eventPicture">
+            <div className="col-lg-4 col-md-4 col-sm-4 eventPicture left-align">
               <figure className="figure">
-                <div className="text-xs-center">
-                  <img src="http://impronto.com/assets/images/pic1.png" className="figure-img img-fluid img-rounded center-block" alt="A generic square placeholder image with rounded corners in a figure."/>
+                <div className="text-xs-center floater-left">
+                  <img src="http://impronto.com/assets/images/pic1.png" className="figure-img img-fluid img-rounded left-align" alt="A generic square placeholder image with rounded corners in a figure."/>
                   <div className="center-block">
-                    <figcaption className="figure-caption muli text-xs-center"><p>Try out a new restaurant with a bunch of people who share similar taste!</p></figcaption>
+                    <figcaption className="figure-caption muli text-xs-center"><p className="secure-width">Try out a new restaurant with a bunch of people who share similar taste!</p></figcaption>
                   </div>
                 </div>
               </figure>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-4 eventPicture">
               <figure className="figure">
-                <div className="text-xs-center">
-                  <img src="http://impronto.com/assets/images/pic2.png" className="figure-img img-fluid img-rounded center-block" alt="A generic square placeholder image with rounded corners in a figure."/>
-                  <figcaption className="figure-caption muli text-xs-center"><p>Something more fun? Plan local short trips for activities such as skiing!</p></figcaption>
+                <div className="text-xs-center floater-left">
+                  <img src="http://impronto.com/assets/images/pic2.png" className="figure-img img-fluid img-rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
+                  <figcaption className="figure-caption muli text-xs-center"><p className="secure-width">Something more fun? Plan local short trips for activities such as skiing!</p></figcaption>
                 </div>
               </figure>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-4 eventPicture">
               <figure className="figure">
                 <div className="text-xs-center">
-                  <img src="http://impronto.com/assets/images/pic3.png" className="figure-img img-fluid img-rounded center-block" alt="A generic square placeholder image with rounded corners in a figure."/>
+                  <img src="http://impronto.com/assets/images/pic3.png" className="figure-img img-fluid img-rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
                   <figcaption className="figure-caption muli text-xs-center"><p>Meet up before the movie for coffee, get into a huddle and take a pic!</p></figcaption>
                 </div>
               </figure>
@@ -124,7 +123,7 @@ export default class HomePageWrapper extends React.Component {
 
       <div id="howItWorks" className="container-fluid">
         <div id="stepsContainer">
-          <div className="row">
+          <div className="row center-align">
             <h3 className="text-xs-center ubuntu hiw-title" id="hiw-title">How does <font color="#FF7469">im</font><font color="#FFCF09">pronto</font> work</h3>
           </div>
           <div className="row">
