@@ -234,6 +234,16 @@ a {
 #figureButton {
   width: 100% !important;
   height: 100% !important;
+
+  font-size: 15px;
+}
+
+#squareButton{
+  padding-left: 42%;
+}
+
+.sizeDown{
+  font-size: 30px;
 }
 
 #inputContainer {
@@ -494,4 +504,12 @@ i:hover {
 #emailForm{
   position: relative;
   bottom: 40px;
+}
+
+.pad20{
+  padding-left: 20%;
+}
+
+.pad{
+  padding-left: 10%;
 }

@@ -107,13 +107,13 @@ export default class HomePageWrapper extends React.Component {
               </figure>
             </div>
             <div className="col l4 m4 s4">
-              <figure className="figure text-xs-center" id="figureButton">
-                <h3 className="ubuntu">Have an idea for <br />your own activity?</h3>
+              <figure className="figure center-block" id="figureButton">
+                <h3 className="muli center-align sizeDown">Have an idea for <br />your own activity?</h3>
                 <br />
-                <a href="#" id="squareButton"><i className="fa fa-plus-square fa-5x"></i></a>
+                <a className="center-align" href="#" id="squareButton"><i className="fa fa-plus-square fa-5x"></i></a>
                 <br />
                 <br />
-                <h3 className="ubuntu">Add here!</h3>
+                <h3 className="muli sizeDown center-align">Add here!</h3>
               </figure>
             </div>
           </div>
@@ -127,12 +127,12 @@ export default class HomePageWrapper extends React.Component {
             <h3 className="text-xs-center ubuntu hiw-title" id="hiw-title">How does <font color="#FF7469">im</font><font color="#FFCF09">pronto</font> work</h3>
           </div>
           <div className="row">
-            <div className="col s12 l3">
+            <div className="col s12 l3 center-align-on-small-only">
               <div className="text-xs-center hiw-image">
-                <img src="http://impronto.com/assets/images/iconpic2.png"/>
+                <img className="pad20" src="http://impronto.com/assets/images/iconpic2.png"/>
               </div>
               <div className="text-xs-center hiw-des">
-                <h5 className="hiw-des-title muli"><span>1.</span> Join Impronto</h5>
+                <h5 className="hiw-des-title muli pad"><span>1.</span> Join Impronto</h5>
 
                   <p className="muli text-xs-left">Sign up with your umich email address.</p>
 
@@ -140,10 +140,10 @@ export default class HomePageWrapper extends React.Component {
             </div>
             <div className="col s12 l3">
               <div className="text-xs-center hiw-image">
-                <img src="http://impronto.com/assets/images/iconpic4.png"/>
+                <img className="pad20" src="http://impronto.com/assets/images/iconpic4.png"/>
               </div>
               <div className="text-xs-center hiw-des muli">
-                <h5 className="hiw-des-title muli"><span>2.</span> Join an activity</h5>
+                <h5 className="hiw-des-title muli pad"><span>2.</span> Join an activity</h5>
 
                   <p className="muli text-xs-left">Choose something that interests you from a list of paid or free.</p>
 
@@ -151,10 +151,10 @@ export default class HomePageWrapper extends React.Component {
             </div>
             <div className="col s12 l3">
               <div className="text-xs-center hiw-image">
-                <img src="http://impronto.com/assets/images/iconpic1.png"/>
+                <img className="pad20" src="http://impronto.com/assets/images/iconpic1.png"/>
               </div>
               <div className="text-xs-center hiw-des">
-                <h5 className="hiw-des-title muli"><span>3.</span> Get in touch</h5>
+                <h5 className="hiw-des-title muli pad"><span>3.</span> Get in touch</h5>
 
                   <p className="muli text-xs-left">Chat with other users who signed up for the same activity before meeting them.</p>
 
@@ -162,10 +162,10 @@ export default class HomePageWrapper extends React.Component {
             </div>
             <div className="col s12 l3">
               <div className="text-xs-center hiw-image">
-                <img src="http://impronto.com/assets/images/iconpic3.png"/>
+                <img className="pad20" src="http://impronto.com/assets/images/iconpic3.png"/>
               </div>
               <div className="text-xs-center hiw-des">
-                <h5 className="hiw-des-title muli"><span>4.</span> Attend your activity!</h5>
+                <h5 className="hiw-des-title muli pad"><span>4.</span> Attend your activity!</h5>
 
                   <p className="muli text-xs-left">Have fun at the activity. Keep in touch if you'd like. Build friendships and connections.</p>
 
@@ -177,7 +177,7 @@ export default class HomePageWrapper extends React.Component {
 
       <div id="footer" className="container-fluid">
         <div className="row">
-          <p className="text-xs-right muli"> Icons designed by <a href="http://www.freepik.com/">Freepik</a></p>
+          <p className="text-xs-right muli right"> Icons designed by <a href="http://www.freepik.com/">Freepik</a></p>
         </div>
       </div>
     </div>
