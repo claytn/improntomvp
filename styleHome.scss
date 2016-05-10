@@ -244,12 +244,6 @@ i:hover {
   color: #FFCF09;
 }
 
-#figureButton{
-  border-radius: 2px;
-  border-width: thin;
-  border-color: white;
-  boder-style: solid;
-}
 
 /* Small Phones */
 @media (max-width: 33em) {
@@ -467,4 +461,37 @@ i:hover {
     padding-top: 40px;
   }
 
+}
+
+.ubuntu {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.list-Item:hover {
+  color: #FFCF09;
+}
+
+.color-yellow {
+  color: #FFCF09;
+}
+
+#logo-header {
+  margin-left: 20px;
+  font-size: 1.6em;
+}
+
+#eventsContainer-title {
+  font-size: 36px;
+}
+
+#eventsContainer-subHead {
+  font-size: 25px;
+}
+
+
+
+
+#emailForm{
+  position: relative;
+  bottom: 40px;
 }
