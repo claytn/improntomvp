@@ -62,25 +62,25 @@ export default class HomePageWrapper extends React.Component {
         </div>
         <div id="imagesSection">
           <div className="row">
-            <div className="col-lg-4 col-md-4 col-sm-4 eventPicture left-align">
+            <div className="col l4 m4 s4 eventPicture left-align">
               <figure className="figure">
                 <div className="text-xs-center floater-left">
                   <img src="http://impronto.com/assets/images/pic1.png" className="figure-img img-fluid img-rounded left-align" alt="A generic square placeholder image with rounded corners in a figure."/>
                   <div className="center-block">
-                    <figcaption className="figure-caption muli text-xs-center"><p className="secure-width">Try out a new restaurant with a bunch of people who share similar taste!</p></figcaption>
+                    <figcaption className="figure-caption muli text-xs-center"><p>Try out a new restaurant with a bunch of people who share similar taste!</p></figcaption>
                   </div>
                 </div>
               </figure>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-4 eventPicture">
+            <div className="col l4 m4 s4 eventPicture">
               <figure className="figure">
                 <div className="text-xs-center floater-left">
                   <img src="http://impronto.com/assets/images/pic2.png" className="figure-img img-fluid img-rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
-                  <figcaption className="figure-caption muli text-xs-center"><p className="secure-width">Something more fun? Plan local short trips for activities such as skiing!</p></figcaption>
+                  <figcaption className="figure-caption muli text-xs-center"><p>Something more fun? Plan local short trips for activities such as skiing!</p></figcaption>
                 </div>
               </figure>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-4 eventPicture">
+            <div className="col l4 m4 s4 eventPicture">
               <figure className="figure">
                 <div className="text-xs-center">
                   <img src="http://impronto.com/assets/images/pic3.png" className="figure-img img-fluid img-rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
@@ -90,7 +90,7 @@ export default class HomePageWrapper extends React.Component {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-md-4 col-sm-4 eventPicture">
+            <div className="col l4 m4 s4 eventPicture">
               <figure className="figure">
                 <div className="text-xs-center">
                   <img src="http://impronto.com/assets/images/pic4.png" className="figure-img img-fluid img-rounded center-block" alt="A generic square placeholder image with rounded corners in a figure."/>
@@ -98,7 +98,7 @@ export default class HomePageWrapper extends React.Component {
                 </div>
               </figure>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-4 eventPicture">
+            <div className="col l4 m4 s4 eventPicture">
               <figure className="figure">
                 <div className="text-xs-center">
                   <img src="http://impronto.com/assets/images/pic5.png" className="figure-img img-fluid img-rounded center-block" alt="A generic square placeholder image with rounded corners in a figure."/>
@@ -106,7 +106,7 @@ export default class HomePageWrapper extends React.Component {
                 </div>
               </figure>
             </div>
-            <div className="col-lg-4 col-md-4 col-sm-4">
+            <div className="col l4 m4 s4">
               <figure className="figure text-xs-center" id="figureButton">
                 <h3 className="ubuntu">Have an idea for <br />your own activity?</h3>
                 <br />
@@ -127,7 +127,7 @@ export default class HomePageWrapper extends React.Component {
             <h3 className="text-xs-center ubuntu hiw-title" id="hiw-title">How does <font color="#FF7469">im</font><font color="#FFCF09">pronto</font> work</h3>
           </div>
           <div className="row">
-            <div className="col-md-3">
+            <div className="col s12 l3">
               <div className="text-xs-center hiw-image">
                 <img src="http://impronto.com/assets/images/iconpic2.png"/>
               </div>
@@ -138,7 +138,7 @@ export default class HomePageWrapper extends React.Component {
 
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col s12 l3">
               <div className="text-xs-center hiw-image">
                 <img src="http://impronto.com/assets/images/iconpic4.png"/>
               </div>
@@ -149,7 +149,7 @@ export default class HomePageWrapper extends React.Component {
 
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col s12 l3">
               <div className="text-xs-center hiw-image">
                 <img src="http://impronto.com/assets/images/iconpic1.png"/>
               </div>
@@ -160,7 +160,7 @@ export default class HomePageWrapper extends React.Component {
 
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col s12 l3">
               <div className="text-xs-center hiw-image">
                 <img src="http://impronto.com/assets/images/iconpic3.png"/>
               </div>
