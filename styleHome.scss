@@ -242,9 +242,7 @@ a {
   padding-left: 42%;
 }
 
-.sizeDown{
-  font-size: 30px;
-}
+
 
 #inputContainer {
   padding-top: 10px;
@@ -512,4 +510,21 @@ i:hover {
 
 .pad{
   padding-left: 10%;
+}
+
+.cardEdit{
+padding-left: 20px !important;
+}
+
+.borderUp{
+  border: 5px white solid;
+}
+
+.sizeDown{
+  font-size: 35px;
+}
+
+.quickAdjust{
+  padding-bottom: 20%;
+  padding-right: 20%;
 }

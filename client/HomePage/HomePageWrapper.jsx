@@ -62,56 +62,80 @@ export default class HomePageWrapper extends React.Component {
         </div>
         <div id="imagesSection">
           <div className="row">
-            <div className="col l4 m4 s4 eventPicture left-align">
+            <div className="col l4 m8 s12 eventPicture left-align">
               <figure className="figure">
-                <div className="text-xs-center floater-left">
-                  <img src="http://impronto.com/assets/images/pic1.png" className="figure-img img-fluid img-rounded left-align" alt="A generic square placeholder image with rounded corners in a figure."/>
-                  <div className="center-block">
-                    <figcaption className="figure-caption muli text-xs-center"><p>Try out a new restaurant with a bunch of people who share similar taste!</p></figcaption>
+
+                <div className="row">
+
+                <div className="col l12">
+                  <img src="http://impronto.com/assets/images/pic1.png" className="figure-img img-fluid img-rounded z-depth-3" alt="A generic square placeholder image with rounded corners in a figure."/>
+                  </div>
+                  <div className="card-panel white col l12 z-depth-2">
+                    <figcaption className="figure-caption muli"><p><font color="#FF7469">Try out a new restaurant with a bunch of people who share similar taste!</font></p></figcaption>
+
+                </div>
+                </div>
+              </figure>
+            </div>
+            <div className="col l4 m8 s12 eventPicture">
+              <figure className="figure">
+              <div className="row">
+                <div className="col l12">
+
+                  <img src="http://impronto.com/assets/images/pic2.png" className="figure-img img-fluid img-rounded z-depth-3" alt="A generic square placeholder image with rounded corners in a figure."/>
+                  </div>
+                  <div className="card-panel white col l12 z-depth-2">
+                  <figcaption className="figure-caption muli text-xs-center"><p><font color="#FF7469">Something more fun? Plan local short trips for activities such as skiing!</font></p></figcaption>
                   </div>
                 </div>
+
               </figure>
             </div>
-            <div className="col l4 m4 s4 eventPicture">
+            <div className="col l4 m8 s12 eventPicture">
               <figure className="figure">
-                <div className="text-xs-center floater-left">
-                  <img src="http://impronto.com/assets/images/pic2.png" className="figure-img img-fluid img-rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
-                  <figcaption className="figure-caption muli text-xs-center"><p>Something more fun? Plan local short trips for activities such as skiing!</p></figcaption>
-                </div>
-              </figure>
-            </div>
-            <div className="col l4 m4 s4 eventPicture">
-              <figure className="figure">
-                <div className="text-xs-center">
-                  <img src="http://impronto.com/assets/images/pic3.png" className="figure-img img-fluid img-rounded" alt="A generic square placeholder image with rounded corners in a figure."/>
-                  <figcaption className="figure-caption muli text-xs-center"><p>Meet up before the movie for coffee, get into a huddle and take a pic!</p></figcaption>
+              <div className="row">
+                <div className="col l12">
+                  <img src="http://impronto.com/assets/images/pic3.png" className="figure-img img-fluid img-rounded z-depth-3" alt="A generic square placeholder image with rounded corners in a figure."/>
+                  </div>
+                  <div className="card-panel white col l12 z-depth-2">
+                  <figcaption className="figure-caption muli "><p><font color="#FF7469">Meet up before the movie for coffee, get into a huddle and take a pic!</font></p></figcaption>
+                  </div>
+
                 </div>
               </figure>
             </div>
           </div>
           <div className="row">
-            <div className="col l4 m4 s4 eventPicture">
+            <div className="col l4 m8 s12 eventPicture">
               <figure className="figure">
-                <div className="text-xs-center">
-                  <img src="http://impronto.com/assets/images/pic4.png" className="figure-img img-fluid img-rounded center-block" alt="A generic square placeholder image with rounded corners in a figure."/>
-                  <figcaption className="figure-caption muli text-xs-center"><p>Want some company to go see your favorite band live? Plan it with us!</p></figcaption>
+              <div className="row">
+                <div className="col l12">
+                  <img src="http://impronto.com/assets/images/pic4.png" className="figure-img img-fluid img-rounded z-depth-3" alt="A generic square placeholder image with rounded corners in a figure."/>
+                  </div>
+                  <div className="card-panel white col l12 z-depth-2">
+                  <figcaption className="figure-caption muli text-xs-center"><p><font color="#FF7469">Want some company to go see your favorite band live? Plan it with us!</font></p></figcaption>
+                  </div>
                 </div>
               </figure>
             </div>
-            <div className="col l4 m4 s4 eventPicture">
+            <div className="col l4 m8 s12 eventPicture">
               <figure className="figure">
-                <div className="text-xs-center">
-                  <img src="http://impronto.com/assets/images/pic5.png" className="figure-img img-fluid img-rounded center-block" alt="A generic square placeholder image with rounded corners in a figure."/>
-                  <figcaption className="figure-caption muli text-xs-center"><p>Make new friends during an evening of bowling and share a great time!</p></figcaption>
+              <div className= "row">
+                <div className="col l12">
+                  <img src="http://impronto.com/assets/images/pic5.png" className="figure-img img-fluid img-rounded z-depth-3" alt="A generic square placeholder image with rounded corners in a figure."/>
+                  </div>
+                  <div className="card-panel white col l12 z-depth-2">
+                  <figcaption className="figure-caption muli text-xs-center"><p><font color="#FF7469">Make new friends during an evening of bowling and share a great time!</font></p></figcaption>
+                  </div>
                 </div>
+
               </figure>
             </div>
-            <div className="col l4 m4 s4">
+            <div className=" quickAdjust col l4 m8 s12">
               <figure className="figure center-block" id="figureButton">
                 <h3 className="muli center-align sizeDown">Have an idea for <br />your own activity?</h3>
                 <br />
                 <a className="center-align" href="#" id="squareButton"><i className="fa fa-plus-square fa-5x"></i></a>
-                <br />
                 <br />
                 <h3 className="muli sizeDown center-align">Add here!</h3>
               </figure>
