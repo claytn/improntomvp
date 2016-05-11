@@ -1,3 +1,26 @@
 body {
   width: 100%;
 }
+
+.event-title {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: .2px;
+  line-height: 24px;
+}
+
+.event-des {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.col {
+  margin: 0 auto;
+}
+
+@media (max-width: 840px) {
+  .side-nav-container {
+    display: none;
+  }
+}
