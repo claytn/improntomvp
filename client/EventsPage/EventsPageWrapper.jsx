@@ -146,7 +146,7 @@ export default class EventsPageWrapper extends TrackerReact(React.Component) {
             </li>
           </ul>
         </div>
-        <div className="events-container collection col s7">
+        <div className="events-container collection col s12 m12 l8">
           <ul className="events-list">
             {this.events().map( (event)=> {
               return <EventSingle key={event._id} event={event} />
