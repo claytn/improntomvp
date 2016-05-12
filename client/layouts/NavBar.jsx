@@ -1,8 +1,28 @@
+import { Meteor } from 'meteor/meteor';
 import React from 'react';
 import SkyLight from 'react-skylight';
 import Blaze from 'meteor/gadicc:blaze-react-component';
 
 export default class NavBar extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      isLoggedIn: 'Log In'
+    };
+  }
+
+  componentDidMount() {
+    if(Meteor.userId()) {
+     this.setState({isLoggedIn: 'Log Out'});
+    }
+  }
+
+  _logUserOut() {
+    if (this.state.isLoggedIn === 'Log Out') {
+       
+    } 
+  }
+
   render() {
     const myDialog = {
       height: '450px'
@@ -20,7 +40,7 @@ export default class NavBar extends React.Component {
               <li>
                 <button
                   className="waves-effect waves-light btn"
-                  onClick={ () => this.refs.simpleDialog.show() }>Log In
+                  onClick={ () => this.refs.simpleDialog.show() }>{this.state.isLoggedIn}
                 </button>
               </li>
             </ul>
