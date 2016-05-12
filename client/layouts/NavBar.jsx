@@ -10,7 +10,7 @@ export default class NavBar extends React.Component {
     return(
       <div>
         <nav>
-          <div className="nav-wrapper">
+          <div className="nav-wrapper colorBckgrd">
             <a href="/" id="logo-header" className="brand-logo ubuntu"><font color="#FFCF09">Im</font>pronto</a>
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li className="list-Item ubuntu"><a href="/events">Events</a></li>
