@@ -148,7 +148,7 @@ export default class HomePageWrapper extends React.Component {
       <div id="howItWorks" className="container-fluid">
         <div id="stepsContainer">
           <div className="row center-align">
-            <h3 className="text-xs-center ubuntu hiw-title" id="hiw-title">How does <font color="#FF7469">im</font><font color="#FFCF09">pronto</font> work</h3>
+            <h3 className=" ubuntu hiw-title" id="hiw-title">How does <font color="#FF7469">im</font><font color="#FFCF09">pronto</font> work</h3>
           </div>
           <div className="row">
             <div className="col s12 l3 center-align-on-small-only">
