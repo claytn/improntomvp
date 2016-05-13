@@ -238,9 +238,7 @@ a {
   font-size: 15px;
 }
 
-#squareButton{
-  padding-left: 42%;
-}
+
 
 
 
@@ -541,4 +539,14 @@ padding-left: 20px !important;
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.alignMe h3{
+  text-align: center;
+
+}
+
+.bumpUp{
+position: relative;
+bottom: 40px;
 }
