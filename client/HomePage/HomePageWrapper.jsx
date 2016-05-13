@@ -68,10 +68,10 @@ export default class HomePageWrapper extends React.Component {
                 <div className="row">
 
                 <div className="col l12">
-                  <img src="http://impronto.com/assets/images/pic1.png" className="figure-img img-fluid img-rounded z-depth-2 responsive-img" alt="A generic square placeholder image with rounded corners in a figure."/>
+                  <img src="http://impronto.com/assets/images/pic1.png" align="center" className="figure-img img-fluid img-rounded z-depth-2 responsive-img alignIm" alt="A generic square placeholder image with rounded corners in a figure."/>
                   </div>
-                  <div className= "center-block">
-                    <figcaption className="figure-caption muli"><p className="alignMe"><font>Try out a new restaurant with a bunch of people who share similar taste!</font></p></figcaption>
+                  <div className= "center-block col l12">
+                    <figcaption className="figure-caption muli alignMe"><p className="alignMe"><font>Try out a new restaurant with a bunch of people who share similar taste!</font></p></figcaption>
 
                 </div>
                 </div>
@@ -84,7 +84,7 @@ export default class HomePageWrapper extends React.Component {
 
                   <img src="http://impronto.com/assets/images/pic2.png" className="figure-img img-fluid img-rounded z-depth-2 responsive-img" alt="A generic square placeholder image with rounded corners in a figure."/>
                   </div>
-                  <div className="center-block">
+                  <div className="center-block col l12">
                   <figcaption className="figure-caption muli "><p className="alignMe"><font>Something more fun? Plan local short trips for activities such as skiing!</font></p></figcaption>
                   </div>
                 </div>
@@ -97,7 +97,7 @@ export default class HomePageWrapper extends React.Component {
                 <div className="col l12">
                   <img src="http://impronto.com/assets/images/pic3.png" className="figure-img img-fluid img-rounded z-depth-2 responsive-img" alt="A generic square placeholder image with rounded corners in a figure."/>
                   </div>
-                  <div className="center-block">
+                  <div className="center-block col l12">
                   <figcaption className="figure-caption muli "><p className="alignMe"><font >Meet up before the movie for coffee, get into a huddle and take a pic!</font></p></figcaption>
                   </div>
 
@@ -112,7 +112,7 @@ export default class HomePageWrapper extends React.Component {
                 <div className="col l12">
                   <img src="http://impronto.com/assets/images/pic4.png" className="figure-img img-fluid img-rounded z-depth-2 responsive-img" alt="A generic square placeholder image with rounded corners in a figure."/>
                   </div>
-                  <div className="center-block">
+                  <div className="center-block col l12">
                   <figcaption className="figure-caption muli"><p className="alignMe"><font>Want some company to go see your favorite band live? Plan it with us!</font></p></figcaption>
                   </div>
                 </div>
@@ -124,21 +124,23 @@ export default class HomePageWrapper extends React.Component {
                 <div className="col l12">
                   <img src="http://impronto.com/assets/images/pic5.png" className="figure-img img-fluid img-rounded z-depth-2 responsive-img" alt="A generic square placeholder image with rounded corners in a figure."/>
                   </div>
-                  <div className="center-block">
+                  <div className="center-block col l12">
                   <figcaption className="figure-caption muli text-xs-center"><p className="alignMe"><font>Make new friends during an evening of bowling and share a great time!</font></p></figcaption>
                   </div>
                 </div>
 
               </figure>
             </div>
-            <div className=" quickAdjust col l4 m8 s12">
-              <figure className="figure center-block" id="figureButton">
-                <h3 className="muli center-align sizeDown">Have an idea for <br />your own activity?</h3>
+            <div className="col l4 m8 s12">
+            <div className="alignMe center-block bumpUp">
+
+                <h3 className="muli sizeDown">Have an idea for <br />your own activity?</h3>
                 <br />
-                <a className="center-align" href="#" id="squareButton"><i className="fa fa-plus-square fa-5x"></i></a>
+                <a className="alignMe" href="#" id="squareButton"><i className="fa fa-plus-square fa-5x"></i></a>
                 <br />
-                <h3 className="muli sizeDown center-align">Add here!</h3>
-              </figure>
+                <h3 className="muli sizeDown">Add here!</h3>
+
+              </div>
             </div>
           </div>
         </div>
@@ -200,9 +202,9 @@ export default class HomePageWrapper extends React.Component {
       </div>
 
       <div id="footer" className="container-fluid">
-        <div className="row">
-          <p className="text-xs-right muli right"> Icons designed by <a href="http://www.freepik.com/">Freepik</a></p>
-        </div>
+
+          <p className="muli right"> Icons designed by <a href="http://www.freepik.com/">Freepik</a></p>
+
       </div>
     </div>
     );

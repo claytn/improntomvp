@@ -22,6 +22,7 @@ FlowRouter.route('/', {
 FlowRouter.route('/events', {
   action() {
     mount(MainLayout, {
+      
       content: (<EventsPageWrapper />)
     })
   }
