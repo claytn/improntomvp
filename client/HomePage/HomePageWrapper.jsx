@@ -7,7 +7,7 @@ export default class HomePageWrapper extends React.Component {
       <div id="mainContainer" className="container-fluid">
         <div className="mainContent">
           <div className="row need-space introContainer">
-            <div className="text-xs-center">
+            <div className="">
               <h4 className="text-xs-center muli taglineTwo center-align">
                 <font color="#FFFFFF"><strong>Want to do something fun?</strong></font>
               </h4>
