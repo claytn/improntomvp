@@ -7,24 +7,28 @@ export default class HomePageWrapper extends React.Component {
       <div id="mainContainer" className="container-fluid">
         <div className="mainContent">
           <div className="row need-space introContainer">
-            <div className="">
-              <h4 className="text-xs-center muli taglineTwo center-align">
+            <div className="titleSize">
+              <h4 className="muli taglineTwo center-align">
                 <font color="#FFFFFF"><strong>Want to do something fun?</strong></font>
               </h4>
-              <h4 className="text-xs-center muli taglineTwo center-align">
+              <h4 className="muli taglineTwo center-align">
                 <font color="#FFFFFF"><strong>Hangout with like-minded people pronto!</strong></font>
               </h4>
             </div>
           </div>
           <div id="inputContainer">
             <div className="row">
-              <div className="col-md-4 col-md-offset-4">
-                <form role="form" method="post" id="emailForm" className="center-align">
-                    <input type="text" name="email" className="form-control center-align" placeholder="youremail@umich.edu" id="emailInput"/>
-                    <div className="text-xs-center" id="buttonDiv">
-                      <button type="submit" name="submit" className="btn btn-primary" id="accessButton">BETA ACCESS</button>
-                    </div>
-                </form>
+            <div className="col l4 right-align">  <p className="muli whiteOut">Sign-up for a small group activity (4-8 people). <br />
+              Or post your own activity, and let people join you.</p>
+              </div>
+              <div className="col l4">
+            <input type="text" name="email" className="center-align" placeholder="youremail@umich.edu" id="emailInput"/>
+              </div>
+
+              <div className="col l4">
+              <div className="text-xs-center" id="buttonDiv">
+                <button type="submit" name="submit" className="btn btn-primary" id="accessButton">BETA ACCESS</button>
+                </div>
               </div>
             </div>
           </div>
@@ -137,6 +141,7 @@ export default class HomePageWrapper extends React.Component {
                 <h3 className="muli sizeDown">Have an idea for <br />your own activity?</h3>
                 <br />
                 <a className="alignMe" href="#" id="squareButton"><i className="fa fa-plus-square fa-5x"></i></a>
+                <br />
                 <br />
                 <h3 className="muli sizeDown">Add here!</h3>
 

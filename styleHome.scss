@@ -59,7 +59,7 @@
 }
 
 #taglineTwo {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 #footer {
@@ -177,7 +177,8 @@ a {
 }
 
 #buttonDiv {
-  padding-top: 5px;
+  position: relative;
+  top: 20px;
 }
 #howItWorks {
   background-color: white;
@@ -499,6 +500,7 @@ i:hover {
 #emailForm{
   position: relative;
   bottom: 40px;
+
 }
 
 .pad20{
@@ -519,6 +521,16 @@ padding-left: 20px !important;
 
 .sizeDown{
   font-size: 35px;
+}
+
+.titleSize{
+  padding-top: 10px;
+}
+
+.titleSize h4{
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 .quickAdjust{
@@ -548,4 +560,8 @@ padding-left: 20px !important;
 .bumpUp{
 position: relative;
 bottom: 40px;
+}
+
+.whiteOut{
+  color: white;
 }
