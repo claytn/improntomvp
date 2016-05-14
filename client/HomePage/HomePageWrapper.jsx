@@ -17,7 +17,7 @@ export default class HomePageWrapper extends React.Component {
             </div>
           </div>
           <div id="inputContainer">
-            <div className="row">
+            <div className="row betaAccessFade">
             <div className="col l4 right-align">  <p className="muli whiteOut">Sign-up for a small group activity (4-8 people). <br />
               Or post your own activity, and let people join you.</p>
               </div>
@@ -54,7 +54,7 @@ export default class HomePageWrapper extends React.Component {
       <div id="eventsContainer" className="container-fluid">
         <div className="row center-align">
           <div className="text-xs-center">
-            <h3 className="ubuntu" id="eventsContainer-title">What can you do on <font color="#ffcf09">im</font>pronto?</h3>
+            <h3 className="ubuntu" id="eventsContainer-title">What can you do with <font color="#ffcf09">im</font>pronto?</h3>
           </div>
         </div>
         <div className="row center-align">
@@ -65,43 +65,52 @@ export default class HomePageWrapper extends React.Component {
           </div>
         </div>
         <div id="imagesSection">
+
           <div className="row">
-            <div className="col l4 m8 s12 eventPicture left-align">
+
+
+
+
+            <div className="col s12 l4 eventPicture">
               <figure className="figure">
-
-                <div className="row">
-
-                <div className="col l12">
+            <div className="row">
+            <div className="col s12 l12">
                   <img src="http://impronto.com/assets/images/pic1.png" align="center" className="figure-img img-fluid img-rounded z-depth-2 responsive-img alignIm" alt="A generic square placeholder image with rounded corners in a figure."/>
-                  </div>
-                  <div className= "center-block col l12">
-                    <figcaption className="figure-caption muli alignMe"><p className="alignMe"><font>Try out a new restaurant with a bunch of people who share similar taste!</font></p></figcaption>
 
-                </div>
-                </div>
-              </figure>
+                  </div>
+                  <div className="center-block col s12 l12">
+                    <figcaption className="figure-caption muli alignMe"><p><font>Try out a new restaurant with a bunch of people who share similar taste!</font></p></figcaption>
+                  </div>
+                  </div>
+                </figure>
             </div>
-            <div className="col l4 m8 s12 eventPicture">
+
+
+
+            <div className="col s12 l4 eventPicture">
               <figure className="figure">
               <div className="row">
-                <div className="col l12">
+                <div className="col s12 l12">
 
-                  <img src="http://impronto.com/assets/images/pic2.png" className="figure-img img-fluid img-rounded z-depth-2 responsive-img" alt="A generic square placeholder image with rounded corners in a figure."/>
+                  <img src="http://impronto.com/assets/images/pic2.png" className="figure-img img-fluid img-rounded z-depth-2 responsive-img alignIm" alt="A generic square placeholder image with rounded corners in a figure."/>
                   </div>
-                  <div className="center-block col l12">
+                  <div className="center-block col s12 l12">
                   <figcaption className="figure-caption muli "><p className="alignMe"><font>Something more fun? Plan local short trips for activities such as skiing!</font></p></figcaption>
                   </div>
                 </div>
 
               </figure>
             </div>
-            <div className="col l4 m8 s12 eventPicture">
+
+
+
+            <div className="col l4 s12 eventPicture">
               <figure className="figure">
               <div className="row">
-                <div className="col l12">
-                  <img src="http://impronto.com/assets/images/pic3.png" className="figure-img img-fluid img-rounded z-depth-2 responsive-img" alt="A generic square placeholder image with rounded corners in a figure."/>
+                <div className="col s12 l12">
+                  <img src="http://impronto.com/assets/images/pic3.png" className="figure-img img-fluid img-rounded z-depth-2 responsive-img alignIm" alt="A generic square placeholder image with rounded corners in a figure."/>
                   </div>
-                  <div className="center-block col l12">
+                  <div className="center-block col s12 l12">
                   <figcaption className="figure-caption muli "><p className="alignMe"><font >Meet up before the movie for coffee, get into a huddle and take a pic!</font></p></figcaption>
                   </div>
 
@@ -109,33 +118,36 @@ export default class HomePageWrapper extends React.Component {
               </figure>
             </div>
           </div>
+
           <div className="row">
-            <div className="col l4 m8 s12 eventPicture">
+
+            <div className="col s12 l4 eventPicture">
               <figure className="figure">
               <div className="row">
-                <div className="col l12">
-                  <img src="http://impronto.com/assets/images/pic4.png" className="figure-img img-fluid img-rounded z-depth-2 responsive-img" alt="A generic square placeholder image with rounded corners in a figure."/>
+                <div className="col s12 l12">
+                  <img src="http://impronto.com/assets/images/pic4.png" className="figure-img img-fluid img-rounded z-depth-2 responsive-img alignIm" alt="A generic square placeholder image with rounded corners in a figure."/>
                   </div>
-                  <div className="center-block col l12">
+                  <div className="center-block col s12 l12">
                   <figcaption className="figure-caption muli"><p className="alignMe"><font>Want some company to go see your favorite band live? Plan it with us!</font></p></figcaption>
                   </div>
                 </div>
               </figure>
             </div>
-            <div className="col l4 m8 s12 eventPicture">
+
+            <div className="col s12 l4 eventPicture">
               <figure className="figure">
               <div className= "row">
-                <div className="col l12">
-                  <img src="http://impronto.com/assets/images/pic5.png" className="figure-img img-fluid img-rounded z-depth-2 responsive-img" alt="A generic square placeholder image with rounded corners in a figure."/>
+                <div className="col s12 l12">
+                  <img src="http://impronto.com/assets/images/pic5.png" className="figure-img img-fluid img-rounded z-depth-2 responsive-img alignIm" alt="A generic square placeholder image with rounded corners in a figure."/>
                   </div>
-                  <div className="center-block col l12">
+                  <div className="center-block col s12 l12">
                   <figcaption className="figure-caption muli text-xs-center"><p className="alignMe"><font>Make new friends during an evening of bowling and share a great time!</font></p></figcaption>
                   </div>
                 </div>
 
               </figure>
             </div>
-            <div className="col l4 m8 s12">
+            <div className="col l4 s12">
             <div className="alignMe center-block bumpUp">
 
                 <h3 className="muli sizeDown">Have an idea for <br />your own activity?</h3>
@@ -158,7 +170,7 @@ export default class HomePageWrapper extends React.Component {
             <h3 className=" ubuntu hiw-title" id="hiw-title">How does <font color="#FF7469">im</font><font color="#FFCF09">pronto</font> work</h3>
           </div>
           <div className="row">
-            <div className="col s12 l3 center-align-on-small-only">
+            <div className="col s12 l3">
               <div className="text-xs-center hiw-image">
                 <img className="alignIm" align="center" src="http://impronto.com/assets/images/iconpic2.png"/>
               </div>
