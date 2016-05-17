@@ -19,8 +19,8 @@ export default class NavBar extends React.Component {
 
   _logUserOut() {
     if (this.state.isLoggedIn === 'Log Out') {
-       
-    } 
+
+    }
   }
 
   render() {
@@ -38,10 +38,10 @@ export default class NavBar extends React.Component {
               <li className="list-Item ubuntu"><a href="/support">Support</a></li>
               <li className="list-Item ubuntu"><a href="/addevent">Add Event</a></li>
               <li>
-                <button
-                  className="waves-effect waves-light btn"
+              <button
+                className="waves-effect waves-light btn"
                   onClick={ () => this.refs.simpleDialog.show() }>{this.state.isLoggedIn}
-                </button>
+              </button>
               </li>
             </ul>
           </div>

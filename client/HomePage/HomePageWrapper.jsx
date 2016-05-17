@@ -18,10 +18,10 @@ export default class HomePageWrapper extends React.Component {
           </div>
           <div id="inputContainer">
             <div className="row betaAccessFade">
-            <div className="col l4 right-align">  <p className="muli whiteOut">Sign-up for a small group activity (4-8 people). <br />
-              Or post your own activity, and let people join you.</p>
+            <div className="col l5 right-align">  <p className="muli whiteOut"><strong>Sign-up for a small group activity (4-8 people). <br />
+              Or post your own activity, and let people join you.</strong></p>
               </div>
-              <div className="col l4">
+              <div className="col l3">
             <input type="text" name="email" className="center-align" placeholder="youremail@umich.edu" id="emailInput"/>
               </div>
 

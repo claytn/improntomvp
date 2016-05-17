@@ -54,8 +54,9 @@
 
 }
 #mainContainer {
-  background-image: url('http://impronto.com/claytonTest/assets/images/improntoBackground.png');
+  background-image: url('http://impronto.com/assets/images/homePageBg.png');
   background-size: cover;
+  background-position: 0 -140px;
 }
 
 #taglineTwo {
@@ -179,6 +180,7 @@ a {
   border-radius: 5px;
   background: white;
   color: black;
+  opacity: 0.9;
 }
 
 #buttonDiv {
