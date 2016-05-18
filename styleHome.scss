@@ -5,6 +5,10 @@
   .taglineTwo {
     font-size: 1.8em;
   }
+
+  #mainContainer{
+    background-position: 0 0;
+  }
 }
 
 .navbar {
@@ -23,6 +27,7 @@
 #inputContainer{
   position: relative;
   padding-top: 400px !important;
+
 }
 
 #navList{
@@ -56,6 +61,7 @@
 #mainContainer {
   background-image: url('http://impronto.com/assets/images/homePageBg.png');
   background-size: cover;
+  background-repeat: repeat-y;
   background-position: 0 -140px;
 }
 

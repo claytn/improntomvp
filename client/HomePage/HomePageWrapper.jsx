@@ -21,11 +21,11 @@ export default class HomePageWrapper extends React.Component {
             <div className="col l5 right-align">  <p className="muli whiteOut"><strong>Sign-up for a small group activity (4-8 people). <br />
               Or post your own activity, and let people join you.</strong></p>
               </div>
-              <div className="col l3">
+              <div className="col s4 l3">
             <input type="text" name="email" className="center-align" placeholder="youremail@umich.edu" id="emailInput"/>
               </div>
 
-              <div className="col l4">
+              <div className="col s3 l4">
               <div className="text-xs-center" id="buttonDiv">
                 <button type="submit" name="submit" className="btn btn-primary" id="accessButton">BETA ACCESS</button>
                 </div>
