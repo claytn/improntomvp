@@ -7,7 +7,8 @@ import EventsPageWrapper from './EventsPage/EventsPageWrapper';
 import EventDetail from './EventsPage/EventDetail.jsx';
 import SupportPageWrapper from './SupportPage/SupportPageWrapper.jsx';
 import HowItWorks from './HowItWorksPage/HowItWorks.jsx';
-import EventsForm from './EventsPage/EventsForm.jsx'
+import EventsForm from './EventsPage/EventsForm.jsx';
+import RSVP from './RSVPPage/RSVP.jsx';
 
 
 FlowRouter.route('/', {
@@ -22,7 +23,7 @@ FlowRouter.route('/', {
 FlowRouter.route('/events', {
   action() {
     mount(MainLayout, {
-      
+
       content: (<EventsPageWrapper />)
     })
   }
@@ -56,6 +57,14 @@ FlowRouter.route('/addevent', {
   action() {
     mount(MainLayout, {
       content: (<EventsForm />)
+    })
+  }
+});
+
+FlowRouter.route('/rsvp/:event/:name',{
+  action(params){
+    mount(MainLayout, {
+      content: (<RSVP event={params.event} name={params.name}/>)
     })
   }
 });
