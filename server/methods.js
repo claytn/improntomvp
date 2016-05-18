@@ -1,3 +1,5 @@
+import { Email } from 'meteor/email';
+
 Meteor.methods({
   addEvent(event, time, loc, des, day, type, nop, price) {
     Events.insert({
@@ -16,5 +18,18 @@ Meteor.methods({
   deleteEvent(event) {
     check(event, Object);
     Events.remove(event._id);
-  }
+  },
+  sendRSVPEmail(name, event) {
+    console.log("Sending message...");
+
+    this.unblock();
+
+    Email.send({
+      from: "improntomvp@gmail.com",
+      to: "raomax@gmail.com",
+      subject: "RSVP",
+      text: name+" is coming to "+ event,
+    });
+    console.log("Message Sent?");
+  },
 });

@@ -65,6 +65,7 @@ FlowRouter.route('/rsvp/:event/:name',{
   action(params){
     mount(MainLayout, {
       content: (<RSVP event={params.event} name={params.name}/>)
-    })
+    });
+    Meteor.call('sendRSVPEmail',params.name,params.event);
   }
 });
